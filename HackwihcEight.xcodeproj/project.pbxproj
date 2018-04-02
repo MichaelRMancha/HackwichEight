@@ -14,6 +14,7 @@
 		7F53C0A32072BEA7003FA2D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F53C0A12072BEA7003FA2D7 /* LaunchScreen.storyboard */; };
 		7F53C0AE2072BEA7003FA2D7 /* HackwihcEightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53C0AD2072BEA7003FA2D7 /* HackwihcEightTests.swift */; };
 		7F53C0B92072BEA7003FA2D7 /* HackwihcEightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53C0B82072BEA7003FA2D7 /* HackwihcEightUITests.swift */; };
+		7F53C0C72072C502003FA2D7 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53C0C62072C502003FA2D7 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7F53C0B42072BEA7003FA2D7 /* HackwihcEightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwihcEightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F53C0B82072BEA7003FA2D7 /* HackwihcEightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwihcEightUITests.swift; sourceTree = "<group>"; };
 		7F53C0BA2072BEA7003FA2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F53C0C62072C502003FA2D7 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				7F53C0982072BEA7003FA2D7 /* AppDelegate.swift */,
 				7F53C09A2072BEA7003FA2D7 /* ViewController.swift */,
+				7F53C0C62072C502003FA2D7 /* Restaurant.swift */,
 				7F53C09C2072BEA7003FA2D7 /* Main.storyboard */,
 				7F53C09F2072BEA7003FA2D7 /* Assets.xcassets */,
 				7F53C0A12072BEA7003FA2D7 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				7F53C09B2072BEA7003FA2D7 /* ViewController.swift in Sources */,
 				7F53C0992072BEA7003FA2D7 /* AppDelegate.swift in Sources */,
+				7F53C0C72072C502003FA2D7 /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
