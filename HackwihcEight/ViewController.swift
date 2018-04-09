@@ -25,7 +25,20 @@ class ViewController: UIViewController {
         let restaurantOne = Restaurant(title: "Kalapawai", type: "American", coordinate:
             CLLocationCoordinate2D(latitude: 21.346478, longitude: -158.080098))
         mapView.addAnnotation(restaurantOne)
-    
+        let restaurantTwo = Restaurant(title: "Denny's", type: "American", coordinate:
+            CLLocationCoordinate2D(latitude: 21.329635, longitude: -158.092297))
+        mapView.addAnnotation(restaurantTwo)
+        let restaurantThree = Restaurant(title: "Ruby Tuesday", type: "American", coordinate:
+            CLLocationCoordinate2D(latitude: 21.329398, longitude: -158.091441))
+        mapView.addAnnotation(restaurantThree)
+        let restaurantFour = Restaurant(title: "Dunkin' Donuts", type: "Breakfast", coordinate: CLLocationCoordinate2D(latitude: 21.329421, longitude: -158.090827))
+        mapView.addAnnotation(restaurantFour)
+        let restaurantFive = Restaurant(title: "Kapolei Commons 12", type: "Popcorn", coordinate:
+            CLLocationCoordinate2D(latitude: 21.330574, longitude: -158.094601))
+        mapView.addAnnotation(restaurantFive)
+        let restaurantSix = Restaurant(title: "Subway", type: "Sandwich", coordinate:
+            CLLocationCoordinate2D(latitude: 21.331491, longitude: -158.091694))
+        mapView.addAnnotation(restaurantSix)
     }
 
     func centerMapLocation (location: CLLocation) {
