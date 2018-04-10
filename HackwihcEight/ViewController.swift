@@ -11,7 +11,7 @@ import MapKit
 import CoreLocation
 
 class ViewController: UIViewController {
-   
+    @IBOutlet var navigationTwo: UINavigationItem!
     @IBOutlet var mapView: MKMapView!
     let initialLocation = CLLocation(latitude: 21.361888, longitude: -158.05)
     let regionRadius: CLLocationDistance = 1000
@@ -39,6 +39,7 @@ class ViewController: UIViewController {
         let restaurantSix = Restaurant(title: "Subway", type: "Sandwich", coordinate:
             CLLocationCoordinate2D(latitude: 21.331491, longitude: -158.091694))
         mapView.addAnnotation(restaurantSix)
+    
     }
 
     func centerMapLocation (location: CLLocation) {
