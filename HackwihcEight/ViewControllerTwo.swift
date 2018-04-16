@@ -10,6 +10,9 @@ import UIKit
 
 class ViewControllerTwo: UIViewController {
 
+    @IBOutlet var tableViewOne: UITableView!
+    var arrayRestaurant = ["Ruby Tuesday", "Kapolei Commons 12", "Denny's", "Kalapawai", "Dunkin' Donuts", "Subway"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

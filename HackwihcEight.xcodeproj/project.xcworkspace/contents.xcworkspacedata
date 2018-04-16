@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HackwihcEight.xcodeproj">
+      location = "group:../../iOS_11_glyph_icons">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

@@ -13,7 +13,7 @@ import CoreLocation
 class ViewController: UIViewController {
     @IBOutlet var navigationTwo: UINavigationItem!
     @IBOutlet var mapView: MKMapView!
-    let initialLocation = CLLocation(latitude: 21.361888, longitude: -158.05)
+    let initialLocation = CLLocation(latitude: 21.332201, longitude: -158.092233)
     let regionRadius: CLLocationDistance = 1000
     
     override func viewDidLoad() {
