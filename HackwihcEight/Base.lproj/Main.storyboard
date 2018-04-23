@@ -50,6 +50,30 @@
             </objects>
             <point key="canvasLocation" x="1014.375" y="0.0"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="VSx-9W-AJj">
+            <objects>
+                <viewController id="dNt-qU-riX" customClass="detailViewController" customModule="HackwihcEight" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mu5-fn-4bA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i6G-Ka-whR">
+                                <rect key="frame" x="40" y="61" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bul-wa-1QJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="i6G-Ka-whR" id="F1I-LU-UN8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yJ2-gd-hUh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1993" y="0.0"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="y51-tP-3J2">
             <objects>

@@ -13,10 +13,17 @@ class ViewControllerTwo: UIViewController, UITableViewDataSource, UITableViewDel
    
     @IBOutlet var tableView: UITableView!
     var arrayRestaurant = ["Ruby Tuesday", "Kapolei Commons 12", "Denny's", "Kalapawai", "Dunkin' Donuts", "Subway"]
+    var restaurantImageData = [String]()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.dataSource = self
+        
+        let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
+        let dict = NSDictionary(contentsOfFile: path!)
+        
+        restaurantImageData = dict!.object(forKey:"restaurantImages") as! [String]
         // Do any additional setup after loading the view.
     }
 
@@ -40,8 +47,9 @@ class ViewControllerTwo: UIViewController, UITableViewDataSource, UITableViewDel
             cell.textLabel?.text = text
             return cell
 }
-    
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
+    }
     
     
     
