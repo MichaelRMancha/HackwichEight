@@ -23,6 +23,9 @@ class ViewControllerTwo: UIViewController, UITableViewDataSource, UITableViewDel
         let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
         let dict = NSDictionary(contentsOfFile: path!)
         
+        tableView.dataSource = self
+        tableView.delegate = self
+        
         restaurantImageData = dict!.object(forKey:"restaurantImages") as! [String]
         // Do any additional setup after loading the view.
     }
@@ -50,8 +53,16 @@ class ViewControllerTwo: UIViewController, UITableViewDataSource, UITableViewDel
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath as IndexPath, animated: true)
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "mySegue"
+        {
+            let s1 = segue.destination as! detailViewController
+            let imageIndex = tableView.indexPathForSelectedRow?.row
+            s1.imagePass = restaurantImageData[imageIndex!]
+        }
     
     
+    }
     
     
     
