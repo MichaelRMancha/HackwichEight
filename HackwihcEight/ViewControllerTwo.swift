@@ -8,14 +8,15 @@
 
 import UIKit
 
-class ViewControllerTwo: UIViewController {
+class ViewControllerTwo: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    @IBOutlet var tableViewOne: UITableView!
+   
+    @IBOutlet var tableView: UITableView!
     var arrayRestaurant = ["Ruby Tuesday", "Kapolei Commons 12", "Denny's", "Kalapawai", "Dunkin' Donuts", "Subway"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.tableView.dataSource = self
         // Do any additional setup after loading the view.
     }
 
@@ -24,7 +25,28 @@ class ViewControllerTwo: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1;
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return arrayRestaurant.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) ->
+        UITableViewCell {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")!
+            let text = arrayRestaurant[indexPath.row]
+            cell.textLabel?.text = text
+            return cell
+}
+    
+    
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
