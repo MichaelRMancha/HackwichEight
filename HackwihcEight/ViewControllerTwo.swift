@@ -56,7 +56,7 @@ class ViewControllerTwo: UIViewController, UITableViewDataSource, UITableViewDel
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "mySegue"
         {
-            let s1 = segue.destination as! detailViewController
+            let s1 = segue.destination as! detailViewControllerTwo
             let imageIndex = tableView.indexPathForSelectedRow?.row
             s1.imagePass = restaurantImageData[imageIndex!]
         }

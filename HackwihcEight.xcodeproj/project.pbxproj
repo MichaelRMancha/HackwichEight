@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0675D1542091A94100C6C8CF /* HackwihcEight in Resources */ = {isa = PBXBuildFile; fileRef = 0675D1532091A94100C6C8CF /* HackwihcEight */; };
+		0675D158209285FA00C6C8CF /* detailViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675D157209285FA00C6C8CF /* detailViewControllerTwo.swift */; };
 		0687805F207C4B610048998C /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687805E207C4B610048998C /* ViewControllerTwo.swift */; };
 		7F53C0992072BEA7003FA2D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53C0982072BEA7003FA2D7 /* AppDelegate.swift */; };
 		7F53C09B2072BEA7003FA2D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53C09A2072BEA7003FA2D7 /* ViewController.swift */; };
@@ -17,7 +19,6 @@
 		7F53C0B92072BEA7003FA2D7 /* HackwihcEightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53C0B82072BEA7003FA2D7 /* HackwihcEightUITests.swift */; };
 		7F53C0C72072C502003FA2D7 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53C0C62072C502003FA2D7 /* Restaurant.swift */; };
 		7FCF3092208E7414003E1887 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FCF3091208E7414003E1887 /* Property List.plist */; };
-		7FCF3098208E7A19003E1887 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF3097208E7A19003E1887 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0675D1532091A94100C6C8CF /* HackwihcEight */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HackwihcEight; sourceTree = "<group>"; };
+		0675D157209285FA00C6C8CF /* detailViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewControllerTwo.swift; sourceTree = "<group>"; };
 		0687805E207C4B610048998C /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		7F53C0952072BEA7003FA2D7 /* HackwihcEight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwihcEight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F53C0982072BEA7003FA2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +57,6 @@
 		7F53C0BA2072BEA7003FA2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F53C0C62072C502003FA2D7 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		7FCF3091208E7414003E1887 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
-		7FCF3097208E7A19003E1887 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = detailViewController.swift; path = ../detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +107,13 @@
 		7F53C0972072BEA7003FA2D7 /* HackwihcEight */ = {
 			isa = PBXGroup;
 			children = (
+				0675D157209285FA00C6C8CF /* detailViewControllerTwo.swift */,
 				7F53C0982072BEA7003FA2D7 /* AppDelegate.swift */,
 				7F53C09A2072BEA7003FA2D7 /* ViewController.swift */,
 				0687805E207C4B610048998C /* ViewControllerTwo.swift */,
 				7FCF3091208E7414003E1887 /* Property List.plist */,
 				7F53C0C62072C502003FA2D7 /* Restaurant.swift */,
-				7FCF3097208E7A19003E1887 /* detailViewController.swift */,
+				0675D1532091A94100C6C8CF /* HackwihcEight */,
 				7F53C09C2072BEA7003FA2D7 /* Main.storyboard */,
 				7F53C09F2072BEA7003FA2D7 /* Assets.xcassets */,
 				7F53C0A12072BEA7003FA2D7 /* LaunchScreen.storyboard */,
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0675D1542091A94100C6C8CF /* HackwihcEight in Resources */,
 				7F53C0A32072BEA7003FA2D7 /* LaunchScreen.storyboard in Resources */,
 				7F53C0A02072BEA7003FA2D7 /* Assets.xcassets in Resources */,
 				7FCF3092208E7414003E1887 /* Property List.plist in Resources */,
@@ -275,7 +279,7 @@
 				7F53C09B2072BEA7003FA2D7 /* ViewController.swift in Sources */,
 				7F53C0992072BEA7003FA2D7 /* AppDelegate.swift in Sources */,
 				7F53C0C72072C502003FA2D7 /* Restaurant.swift in Sources */,
-				7FCF3098208E7A19003E1887 /* detailViewController.swift in Sources */,
+				0675D158209285FA00C6C8CF /* detailViewControllerTwo.swift in Sources */,
 				0687805F207C4B610048998C /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
