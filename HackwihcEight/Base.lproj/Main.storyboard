@@ -31,7 +31,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="dNt-qU-riX" kind="show" identifier="mySegue" trigger="accessoryAction" id="bj3-tK-KHY"/>
+                                            <segue destination="dNt-qU-riX" kind="show" identifier="mySegue" id="ofL-U8-rHb"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
