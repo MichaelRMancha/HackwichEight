@@ -44,7 +44,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Kxq-Vc-XCO"/>
                     </view>
-                    <navigationItem key="navigationItem" id="48j-Y1-wqX"/>
+                    <navigationItem key="navigationItem" id="48j-Y1-wqX" userLabel="navigationItem2"/>
                     <connections>
                         <outlet property="tableView" destination="N17-Mk-sCD" id="qLf-lB-Uip"/>
                     </connections>
@@ -79,6 +79,7 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="i6G-Ka-whR" id="h0C-9e-aFX"/>
+                        <outlet property="testView" destination="p1O-pn-ouL" id="t2A-hx-bER"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yJ2-gd-hUh" userLabel="First Responder" sceneMemberID="firstResponder"/>

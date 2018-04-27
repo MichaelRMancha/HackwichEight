@@ -14,6 +14,7 @@ class ViewControllerTwo: UIViewController, UITableViewDataSource, UITableViewDel
     @IBOutlet var tableView: UITableView!
     var arrayRestaurant = ["Ruby Tuesday", "Kapolei Commons 12", "Denny's", "Kalapawai", "Dunkin' Donuts", "Subway"]
     var restaurantImageData = [String]()
+    var restaurantDescriptionData = [String]()
     
     
     override func viewDidLoad() {
@@ -27,7 +28,9 @@ class ViewControllerTwo: UIViewController, UITableViewDataSource, UITableViewDel
         tableView.delegate = self
         
         restaurantImageData = dict!.object(forKey:"restaurantImages") as! [String]
-        // Do any additional setup after loading the view.
+        restaurantDescriptionData = dict!.object(forKey: "restaurantDescriptions") as! [String]
+   
+        title = "My Favorite Restuarants"
     }
 
     override func didReceiveMemoryWarning() {
@@ -59,6 +62,7 @@ class ViewControllerTwo: UIViewController, UITableViewDataSource, UITableViewDel
             let s1 = segue.destination as! detailViewControllerTwo
             let imageIndex = tableView.indexPathForSelectedRow?.row
             s1.imagePass = restaurantImageData[imageIndex!]
+            s1.descriptionPass = restaurantDescriptionData[imageIndex!]
         }
     
     

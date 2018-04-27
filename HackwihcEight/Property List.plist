@@ -2,6 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>restaurantDescriptions</key>
+	<array>
+		<string>Casual chain with American fare, featuring burgers, a salad bar, cocktails &amp; a convivial vibe.</string>
+		<string>This retail area offers local &amp; national chain restaurants &amp; department stores, plus other services.</string>
+		<string>Casual diner chain dishing up classic American comfort fare, including breakfast, 24 hours a day.</string>
+		<string>Cafe and Deli with delicious food and plenty of seating all day around.</string>
+		<string>Long-running chain serving signature donuts, breakfast sandwiches &amp; a variety of coffee drinks.</string>
+		<string>Casual counter-serve chain for build-your-own sandwiches &amp; salads, with health-conscious options.</string>
+	</array>
 	<key>restaurantImages</key>
 	<array>
 		<string>RubyTues_Kapoeli_2017-2-24_422</string>

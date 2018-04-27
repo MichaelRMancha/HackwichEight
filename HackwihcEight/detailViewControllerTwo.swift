@@ -9,8 +9,10 @@
 import UIKit
 
 class detailViewControllerTwo: UIViewController {
+    @IBOutlet var testView: UITextView!
     @IBOutlet var imageView: UIImageView!
     var imagePass: String?
+    var descriptionPass: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,8 +21,13 @@ class detailViewControllerTwo: UIViewController {
         if let imageName = imagePass {
             imageView.image = UIImage(named: imageName)
         }
+        if let descriptionName = descriptionPass {
+            testView.text = descriptionName
+        }
+    
     
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
