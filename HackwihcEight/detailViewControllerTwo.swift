@@ -28,6 +28,7 @@ class detailViewControllerTwo: UIViewController {
         if let titleName = titlePass {
             title = titleName
         }
+   self.view.backgroundColor = UIColor.cyan
     }
 
 
