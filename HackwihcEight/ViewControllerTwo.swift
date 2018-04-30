@@ -15,7 +15,7 @@ class ViewControllerTwo: UIViewController, UITableViewDataSource, UITableViewDel
     var arrayRestaurant = ["Ruby Tuesday", "Kapolei Commons 12", "Denny's", "Kalapawai", "Dunkin' Donuts", "Subway"]
     var restaurantImageData = [String]()
     var restaurantDescriptionData = [String]()
-    
+    var restaurantTitleData = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +29,8 @@ class ViewControllerTwo: UIViewController, UITableViewDataSource, UITableViewDel
         
         restaurantImageData = dict!.object(forKey:"restaurantImages") as! [String]
         restaurantDescriptionData = dict!.object(forKey: "restaurantDescriptions") as! [String]
-   
+        restaurantTitleData = dict!.object(forKey: "navigationTitles") as! [String]
+        
         title = "My Favorite Restuarants"
     }
 
@@ -63,6 +64,7 @@ class ViewControllerTwo: UIViewController, UITableViewDataSource, UITableViewDel
             let imageIndex = tableView.indexPathForSelectedRow?.row
             s1.imagePass = restaurantImageData[imageIndex!]
             s1.descriptionPass = restaurantDescriptionData[imageIndex!]
+            s1.titlePass = restaurantTitleData[imageIndex!]
         }
     
     

@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         let restaurantSix = Restaurant(title: "Subway", type: "Sandwich", coordinate:
             CLLocationCoordinate2D(latitude: 21.331491, longitude: -158.091694))
         mapView.addAnnotation(restaurantSix)
-    
+    title = "Map"
     }
 
     func centerMapLocation (location: CLLocation) {

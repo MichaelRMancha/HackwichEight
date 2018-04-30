@@ -2,6 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>navigationTitles</key>
+	<array>
+		<string>Ruby Tuesday</string>
+		<string>Kapolei Commons</string>
+		<string>Denny&apos;s</string>
+		<string>Kapolei Kalapawai</string>
+		<string>Dunkin Donuts</string>
+		<string>Subway</string>
+	</array>
 	<key>restaurantDescriptions</key>
 	<array>
 		<string>Casual chain with American fare, featuring burgers, a salad bar, cocktails &amp; a convivial vibe.</string>

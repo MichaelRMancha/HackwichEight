@@ -13,6 +13,7 @@ class detailViewControllerTwo: UIViewController {
     @IBOutlet var imageView: UIImageView!
     var imagePass: String?
     var descriptionPass: String?
+    var titlePass: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,8 +25,9 @@ class detailViewControllerTwo: UIViewController {
         if let descriptionName = descriptionPass {
             testView.text = descriptionName
         }
-    
-    
+        if let titleName = titlePass {
+            title = titleName
+        }
     }
 
 
